@@ -1,0 +1,66 @@
+/* --- Фон для сторінки --- */
+body {
+    background-size: cover;        /* Картинка покриває весь екран */
+    background-position: center;   /* Центрування */
+    background-repeat: no-repeat;  /* Без повторення */
+    background-attachment: fixed;  /* Фіксований фон при скролі */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;       /* Центрування карт */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Стиль контейнера, якщо потрібен --- */
+.body-element {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* --- Стиль карток --- */
+.card {
+    display: flex;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+    border: 3px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(40px, 10vw, 100px);
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #58ad58, #2e8b2e);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+/* --- Hover ефект --- */
+.card:hover {
+    transform: scale(1.05) rotate(3deg);
+    background-color: darkgreen;
+}
+
+/* --- Активна карта при натисканні --- */
+.card:active {
+    transform: scale(0.95);
+}
+
+/* --- Класи для результату гри --- */
+.card.win {
+    background-color: gold;
+    color: white;
+}
+
+.card.lose {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,6 @@
+1. I make this repository today
+2. I refresh my memory about OOP clases and princeples
+3. Learn about Factory Functions / Constructors, prototypes, this
+4. Make some practice
+
+   

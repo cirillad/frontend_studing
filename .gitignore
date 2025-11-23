@@ -1,0 +1,56 @@
+**/node_modules/
+
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 2. Збірка та компіляція (Build/Dist)
+# Папки, що містять скомпільований/транспілований код (React, TS)
+/dist
+/build
+/out
+/public
+
+# Кеші збірки від популярних бандлерів (Vite, Parcel, Webpack)
+.parcel-cache/
+.vite/
+.nuxt/
+.next/
+.serverless/
+.output/
+
+# 3. Кеші та Логи
+# Файли логів та кеш лінтерів
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# 4. Файли операційних систем та редакторів
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IDE від JetBrains (WebStorm, IntelliJ)
+.idea/
+
+# Інші тимчасові файли
+*~
+#*#
+
+# 5. Тестування та звітність
+# Папки, що генеруються під час тестування
+/coverage
+/lcov-report
+
+# 6. Файли середовища (Environment variables)
+# Приховані файли з секретами, які не повинні потрапити в репозиторій
+.env
+.env.*
+!.env.example # Залиште .env.example, якщо хочете його трекати як шаблон
