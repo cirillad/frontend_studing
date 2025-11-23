@@ -1,6 +1,6 @@
 # frontend_studing
 
-I make this repository for myself, I want to learn frontend technolegies better, cause not a long time ago I undestood how bad im in this
+I make this repository for myself, I want to learn frontend technolegies better, cause not a long time ago I understood how bad im in this
 
 I`ll make commits here everyday, and note my progress. I want to make my git account active and I want to discipline myself
 
