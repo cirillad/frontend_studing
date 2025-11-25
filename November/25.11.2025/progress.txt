@@ -1,0 +1,7 @@
+1. Local Storage, Session Storage, Cookies.
+2. Event Loop от А до Я. Архитектура браузера и Node JS. Движки и рендер.
+3. Regular Expressions or RegExp
+4. Validation
+5. Recursive
+6. Date
+7. Math
