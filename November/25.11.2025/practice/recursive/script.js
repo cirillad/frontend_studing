@@ -18,7 +18,7 @@
 // }
 //
 // console.log(reverse(testStr))
-//
+
 // recursive practice 2
 
 // let testNum = 5
@@ -51,15 +51,5 @@
 // }
 //
 // console.log(Factorial(testNum))
-
-// recursive practice 4
-
-let testArr =[1, [2, [3, 4], 5], 6];
-let newArr = [1, 2];
-
-testArr.push(newArr);
-console.log(testArr);
-
-
 
 

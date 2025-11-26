@@ -1,0 +1,3 @@
+1. "Основи JS українською для початківців" finished.
+2. "JavaScript курс 2025 Александр Ламков — Friendly Frontend " - start this one. A lot of information I know and also enough extra new info.
+3. Made some practice.
