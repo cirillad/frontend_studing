@@ -1,0 +1,5 @@
+1. Made: 
+"training-types" section
+"join-us" section
+"location" section
+"family" section
